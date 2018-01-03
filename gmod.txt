@@ -1,4 +1,4 @@
-./srcds_run -game garrysmod +gamemode murder +maxplayers 16 +host_workshop_collection 202743660 +map md_clue
+./srcds_run -game garrysmod +gamemode murder +maxplayers 16 +host_workshop_collection 1255288695 +map md_clue
 
   wilee@darklight-nyc3-01:~/server_1$ cat garrysmod/cfg/server.cfg
 hostname                "Steeltown Silly Server"
@@ -46,3 +46,4 @@ cd ../gamemodes/
   701  mv prophunt-master/ prophunt/
 
   
+COLLECITON ID: 1255288695    <- Wilee's collection on steam for pulling everything into one place
