@@ -1,0 +1,48 @@
+./srcds_run -game garrysmod +gamemode murder +maxplayers 16 +host_workshop_collection 202743660 +map md_clue
+
+  wilee@darklight-nyc3-01:~/server_1$ cat garrysmod/cfg/server.cfg
+hostname                "Steeltown Silly Server"
+rcon_password           ""
+sv_password             "<pass>"
+sv_region               255
+sv_lan                  0
+sv_logbans              1
+sv_logecho              1
+sv_logfile              1
+sv_log_onefile          0
+sv_noclipspeed          5
+sv_noclipaccelerate     5
+net_maxfilesize         30
+sv_minrate              0
+sv_maxrate              2500
+decalfrequency          10
+sv_maxupdaterate        66
+sv_minupdaterate        10
+
+  
+   cd ~
+  633  ls
+  634  wget http://pastebin.com/raw/CRmMbJQA -O ./update_gmod.sh
+  635  ls
+  636  chmod +x ./update_gmod.sh
+  637  dos2unix ./update_gmod.sh
+  638  ./update_gmod.sh
+  639  pwd
+  640  ls
+  641  update_gmod.sh
+  642  sh update_gmod.sh
+  643  ls
+  644  cd mkdir bin
+  645  mkdir bin
+  646  cd bin/
+  647  wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
+  648  tar -xvzf steamcmd_linux.tar.gz
+  649  ./steamcmd.sh +login anonymous +quit
+  650  ./update_gmod.sh
+
+cd ../gamemodes/
+  695  wget https://github.com/andrewtheis/prophunt/archive/master.zip
+  698  unzip master.zip
+  701  mv prophunt-master/ prophunt/
+
+  
